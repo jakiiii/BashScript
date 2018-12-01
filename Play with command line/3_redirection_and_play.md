@@ -11,8 +11,8 @@ If you want copy and move some files your current dir to another dir than you ca
 
 `cp -v ../<folder>` 
 
->cp -> copy
->-v -> verbose
+* cp -> copy
+* -v -> verbose
 
 ---
 
