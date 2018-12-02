@@ -38,26 +38,26 @@ Return user home directory.
 `echo #$PWD`
 Return current directory.
 
-Mac: `/Users/scott`
-Linux: `/home/scoot`
+- Mac: `/Users/scott`
+- Linux: `/home/scoot`
 
 `echo $MACHTYPE`
 Return machine type.
 
-Mac: x86_64-apple-darwin12
-Linux: x86_64_pc-linux-gun
+- Mac: x86_64-apple-darwin12
+- Linux: x86_64_pc-linux-gun
 
 `echo $HOSTNAME`
 Return system name.
 
-Mac: scoot.local
-Linux: orion
+- Mac: scoot.local
+- Linux: orion
 
 `echo $BASH_VERSION`
 Return version of Bash.
 
-Mac: 4.4.19(1)
-Linux: 4.4.19(1)
+- Mac: 4.4.19(1)
+- Linux: 4.4.19(1)
 
 `echo $SECONDS`
 Return the number of seconds the Bash session has run.
