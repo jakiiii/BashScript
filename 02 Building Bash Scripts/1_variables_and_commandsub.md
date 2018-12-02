@@ -67,7 +67,8 @@ Handy for timing things.
 `echo $0`
 Return the name of the script.
 
-For more info of (Internal Variables)[http://tldp.org/LDP/abs/html/internalvariables.html].
+For more info of
+(Internal Variables)[http://tldp.org/LDP/abs/html/internalvariables.html]
 
 # Commandsub
 Command substitution is not complecated. In bash script we set a command its return when we run the script.
