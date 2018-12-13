@@ -1,4 +1,5 @@
-## Arithmetic operations
+# Arithmetic operations
+## String
 
 ```
 Operations      -->    Operator
@@ -62,4 +63,68 @@ echo $g
 
 If you learn more about `bc` command than just typeing `man bc` on your terminal.
 
- 
+## String Manipulation
+
+Bash provides for string manipulation. Like,
+    - Concatenation
+    - Substring
+    - Extraction and
+    - Replacement
+
+### Concatenation example,
+```
+a="Hello "
+b="Bash!"
+e=$a$b
+echo $c
+```
+
+>Hello Bash! #output
+
+You can find easily how lenth have this string. Example,
+```
+echo ${#a}  # [Hello]
+```
+
+>5
+
+### Substring example,
+```
+d=${c:3}
+echo $d
+```
+
+>lo world
+
+```
+e=${c:3:4}
+echo $e
+```
+
+>lo w
+
+`echo ${c: -4}`
+
+>orld
+
+`echo ${c: -4:3}`
+
+>orl
+
+### Replacement example,
+
+```
+fruit="apple banana cherry orange"
+echo ${fruit/banana/durian}
+```
+
+>apple durian cherry orange
+
+`echo ${fruit/#apple/durian}`
+
+>durian banana cherry orange
+
+`echo ${fruit/#banana/durian}`
+
+>apple banana cherry orange
+
